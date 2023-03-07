@@ -17,8 +17,7 @@ def GetAndroidSize():
 def GetInfo():
     global imgPath, projectPath, name
     imgPath = imgPath if imgPath else input('Enter Image Parent Folder Path: ')
-    projectPath = projectPath if projectPath else input(
-        'Enter Project Folder Path: ')
+    projectPath = projectPath if projectPath else input('Enter Project Folder Path: ')
     name = name if name else input('Enter Name File: ')
     return imgPath, projectPath, name
 

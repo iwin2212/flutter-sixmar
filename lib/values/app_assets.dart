@@ -1,4 +1,5 @@
 import 'package:flutter/animation.dart';
+import 'package:flutter/cupertino.dart';
 
 class AppColors {
 // appearance
@@ -43,4 +44,14 @@ class AppAssets {
   static final String iRedX = '${imgPath}red_x.png';
   static final String iSave = '${imgPath}save.png';
   static final String iSaveMoney = '${imgPath}savemoney.png';
+}
+
+class FontFamily {
+  static const san = 'san';
+  static const dancing = 'dancing';
+}
+
+class AppStyles {
+  static TextStyle h1 = TextStyle(
+      fontFamily: FontFamily.san, fontSize: 50, color: AppColors.plaintext);
 }

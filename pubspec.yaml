@@ -36,6 +36,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  percent_indicator: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -81,11 +82,19 @@ flutter:
   fonts:
     - family: dancing
       fonts:
-        - asset: fonts/dancing/
+        - asset: fonts/dancing/DancingScript-Regular.ttf
+        - asset: fonts/dancing/DancingScript-Bold.ttf
+          weight: 700
+        - asset: fonts/dancing/DancingScript-SemiBold.ttf
+          weight: 500
     - family: san
       fonts:
-        - asset: fonts/san/
+        - asset: fonts/san/SourceSansPro-Regular.ttf
+        - asset: fonts/san/SourceSansPro-Bold.ttf
           weight: 700
+        - asset: fonts/san/SourceSansPro-Italic.ttf
+        - asset: fonts/san/SourceSansPro-Light.ttf
+          weight: 300
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
